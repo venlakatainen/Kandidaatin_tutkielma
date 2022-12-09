@@ -1,0 +1,32 @@
+body {
+    font-family: consolas;
+    font-size: 1.5rem;
+    background-color: #E8DED1
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    flex-flow: row wrap;
+    max-width: 40vw;
+    margin: auto;
+    align-items: baseline;
+    font-family: consolas;
+}
+
+button[type="submit"] {
+    padding: 5px 20px;
+    margin: 10px auto;
+    float: right;
+}
+
+#greeting {
+    margin: 10px auto;
+    padding: 10px 60px;
+    background-color: #D1C0A8
+}
+
+#greeting:empty {
+    display: none;
+}
